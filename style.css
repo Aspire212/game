@@ -91,5 +91,5 @@
   transition: transform 0.4s ease;
 }
 .icon:hover{
-  box-shadow: 0 0 5px blue;
+  box-shadow: 0 0 5px lightblue;
 }
