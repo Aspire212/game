@@ -34,6 +34,7 @@ fon.onclick = function(event){
       setTimeout(unlockWindow, 1000);
       counter++
       if (counter === 8){
+         musicWin();
          setTimeout(winner, 1000)
       }
     }
@@ -99,4 +100,10 @@ function randomPosition() {
 }
 function winner(){
   alert('You win!');
+  location.reload();
+}
+function musicWin(){
+  let audio = new Audio();
+  audio.src = "Winner.mp3"
+  audio.play()
 }
