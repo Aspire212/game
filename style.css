@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.fon{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(Parks.jpg) center center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.icon{
+  width: 20vw;
+  height: 20vh;
+  background: rgba(255, 255, 255, 0.6);
+  margin: 8px;
+  border-radius: 10px;
+}
+.shadow{
+  position: absolute;
+  left: 0;  
+  top: -200vh;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+.shadow_active{
+  top: 0;
+}
+.red.active{
+  background: red;
+  transform: rotateY(180deg);
+  transition: transform 0.4s ease;
+}
+
+.green.active{
+  background: green;
+  transform: rotateY(180deg);
+  transition: transform 0.4s ease;
+}
+
+.blue.active {
+  background: blue;
+  transform: rotateY(180deg);
+  transition: transform 0.4s ease;
+}
+
+.yellow.active {
+  background: yellow;
+  transform: rotateY(180deg);
+  transition: transform 0.4s ease;
+}
+
+
+.pink.active {
+  background: pink;
+  transform: rotateY(180deg);
+  transition: transform 0.4s ease;
+}
+
+.violet.active {
+  background: violet;
+  transform: rotateY(180deg);
+  transition: transform 0.4s ease;
+}
+
+.lightblue.active {
+  background: lightblue;
+  transform: rotateY(180deg);
+  transition: transform 0.4s ease;
+} 
+
+.darkgreen.active {
+  background: darkgreen;
+  transform: rotateY(180deg);
+  transition: transform 0.4s ease;
+}
+.icon:hover{
+  box-shadow: 0 0 5px blue;
+}
